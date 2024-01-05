@@ -16,15 +16,17 @@ nav ul li {
   display: inline-block;
   transition: all 0.2s ease-out;
   margin: 0 30px 0 0;
+  
 }
 
 nav ul li a {
-  color: #fff;
+  color: #ffffff;
   font-weight: 100;
   font-size: 15px;
   letter-spacing: 1px;
   transition: all 0.2s ease-out;
-  opacity: 0.8;
+  font-weight: bold;
+  
 }
 nav ul li a:hover {
   color: #31b675;
@@ -107,18 +109,19 @@ nav i {
 /*--------header------------*/
 header {
   padding: 40px 0 20px 0;
-  background-color: #fff;
+  background-color: #666666;
+
 }
 header .box {
   margin: 0 0 0 30px;
 }
 header a {
   font-size: 13px;
-  color: grey;
+  color: rgb(11, 248, 62);
 }
 header i {
   font-size: 40px;
-  color: #31b675;
+  color: #00ff4c;
   margin-right: 15px;
 }
 header .text {
@@ -126,6 +129,7 @@ header .text {
 }
 header h4 {
   line-height: 10px;
+  color: #fff
 }
 
 /*--------header------------*/
