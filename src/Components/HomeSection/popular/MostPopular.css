@@ -14,6 +14,8 @@
   top: 0;
   left: 0;
   z-index: -1;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
 }
 .popular img {
   width: 100%;
@@ -96,7 +98,7 @@
   background: #ff8400;
 }
 .popular .cards h3 {
-  color: #31b675;
+  color: #08f700;
   font-weight: 500;
 }
 .popular .cards h3 span {
@@ -112,6 +114,9 @@
 .popular .control-btn .prev {
   top: 100%;
   background: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
 }
 .popular .control-btn .prev {
   left: 45%;
@@ -121,8 +126,8 @@
 }
 .popular .control-btn .prev i,
 .popular .control-btn .next i {
-  background: rgba(0, 0, 0, 0.05);
-  color: black;
+  background: rgba(110, 108, 108, 0.582);
+  color: rgb(30, 255, 0);
   font-size: 15px;
   transition: 0.5s;
 }

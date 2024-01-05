@@ -1,15 +1,22 @@
 .download {
-  background-color: #31b675;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../../../public/Images/gallery-4.jpg");
   color: white;
   height: 75vh;
   padding: 50px 0;
   overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .download h1 {
   font-size: 40px;
+  color: #45f500;
 }
+
 .download ul {
   margin: 20px 0;
+  font-weight: bold;
 }
 .download ul li {
   margin: 10px 0;
@@ -20,11 +27,16 @@
 .download .row {
   position: relative;
 }
+.img .flex img {
+  filter: brightness(110%) contrast(120%) saturate(120%);
+}
 .download .image {
   position: absolute;
   left: 20%;
   right: 0;
+  filter: brightness(110%) contrast(120%) saturate(120%);
 }
+
 @media screen and (max-width: 768px) {
   .download .flex_space {
     flex-direction: column;
