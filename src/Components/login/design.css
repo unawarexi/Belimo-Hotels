@@ -3,32 +3,45 @@
   margin: auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   padding: 40px;
+  background: #4d4d4d;
+  color: #fff;
+  border-radius: 15px;
 }
 .forms form div {
   margin: 10px 0;
+}
+
+.forms input {
+   border-radius: 15px;
 }
 .forms form .flex input {
   width: 20px;
   height: 20px;
   margin-right: 15px;
+ 
 }
 .forms p {
   font-size: 13px;
 }
 .forms form label {
   margin: 8px;
+
 }
 .forms form span {
   margin-top: 10px;
   color: crimson;
   font-size: 13px;
+  font-weight: bold;
 }
 .forms form button {
   width: 100%;
   margin: 20px 0;
+  background: #FF8400;
+  border-radius: 30px;
+  
 }
 .forms form a {
-  color: blue;
+  color: rgb(9, 255, 0);
   font-size: 13px;
 }
 
