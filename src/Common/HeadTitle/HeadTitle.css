@@ -28,9 +28,10 @@
 .image-heading h1 {
   font-size: 40px;
   text-transform: capitalize;
+  color: #fff;
 }
 .image-heading button {
-  background: black;
+  background: #333333;
   color: white;
   font-weight: 400;
   padding: 15px 30px;
