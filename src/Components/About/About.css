@@ -103,6 +103,52 @@
 }
 
 
+/* @media screen and (max-width: 1024px) {
+  .features .flex_space,
+  .aboutCard {
+    flex-direction: column;
+  }
+  .aboutCard .image::after,
+  .aboutCard .image::before,
+  .aboutCard .control-btn::before {
+    display: none;
+  }
+  .aboutCard .row {
+    width: 100%;
+  }
+  .aboutCard .image {
+    margin-top: 50px;
+  }
+  .aboutCard img {
+    width: 100%;
+    
+  }
+} */
+
+
+@media screen and (max-width: 1024px) {
+  .features .flex_space,
+  .aboutCard {
+    flex-direction: column;
+  }
+  .aboutCard .image::after,
+  .aboutCard .image::before,
+  .aboutCard .control-btn::before {
+    display: none;
+  }
+  .aboutCard .row {
+    width: 100%;
+  }
+  .aboutCard .image {
+    margin-top: 50px;
+  }
+  .aboutCard img {
+    width: 100%;
+    
+  }
+
+
+}
 
 @media screen and (max-width: 768px) {
   .features .flex_space,
@@ -123,5 +169,16 @@
   .aboutCard img {
     width: 100%;
     
+  }
+
+  .aboutCard h1 {
+    font-size: 20px;
+  }
+ 
+  .aboutCard p {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    color:#fff;
   }
 }

@@ -20,7 +20,7 @@ const Home = ({ slides }) => {
   return (
     <>
       <section className='slider'>
-        <div className='control-btn'>
+        <div className='control-btn control-btn-home'>
           <button className='prev' onClick={prevSlide}>
             <i className='fas fa-caret-left'></i>
           </button>

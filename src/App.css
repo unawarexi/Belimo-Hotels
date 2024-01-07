@@ -12,9 +12,9 @@ a {
   text-decoration: none;
 }
 
-/* img {
-  filter: brightness(100%) contrast(120%) saturate(120%);
-} */
+img {
+  filter: contrast(120%) saturate(120%);
+}
 
 .flex {
   display: flex;
@@ -38,7 +38,7 @@ button {
 }
 .primary-btn {
   padding: 10px 20px;
-  background-color: #FF8400;
+  background-color: #ff8400;
   color: white;
   font-weight: 400;
   transition: 0.5s;
@@ -69,24 +69,28 @@ button {
 }
 
 @keyframes glowingbuttons {
-  0%, 100% {
-    box-shadow: 0 0 20px rgb(29, 233, 11), 0 0 40px rgba(0, 255, 13, 0.3), 0 0 60px rgba(21, 255, 0, 0.2),
-                0 0 80px rgba(0, 128, 255, 0.1), 0 0 100px rgba(0, 128, 255, 0.05);
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgb(29, 233, 11), 0 0 40px rgba(0, 255, 13, 0.3),
+      0 0 60px rgba(21, 255, 0, 0.2), 0 0 80px rgba(0, 128, 255, 0.1),
+      0 0 100px rgba(0, 128, 255, 0.05);
   }
   25% {
-    box-shadow: 0 0 40px rgb(29, 233, 11), 0 0 60px rgba(0, 255, 13, 0.3), 0 0 80px rgba(0, 255, 13, 0.2),
-                0 0 100px rgba(0, 128, 255, 0.1), 0 0 120px rgba(0, 128, 255, 0.05);
+    box-shadow: 0 0 40px rgb(29, 233, 11), 0 0 60px rgba(0, 255, 13, 0.3),
+      0 0 80px rgba(0, 255, 13, 0.2), 0 0 100px rgba(0, 128, 255, 0.1),
+      0 0 120px rgba(0, 128, 255, 0.05);
   }
   50% {
-    box-shadow: 0 0 20px rgb(29, 233, 11), 0 0 40px rgba(0, 255, 21, 0.3), 0 0 60px rgba(0, 255, 13, 0.2),
-                0 0 80px rgba(0, 128, 255, 0.1), 0 0 100px rgba(0, 128, 255, 0.05);
+    box-shadow: 0 0 20px rgb(29, 233, 11), 0 0 40px rgba(0, 255, 21, 0.3),
+      0 0 60px rgba(0, 255, 13, 0.2), 0 0 80px rgba(0, 128, 255, 0.1),
+      0 0 100px rgba(0, 128, 255, 0.05);
   }
   75% {
-    box-shadow: 0 0 40px rgb(29, 233, 11), 0 0 60px rgba(0, 255, 13, 0.3), 0 0 80px rgba(0, 255, 21, 0.2),
-                0 0 100px rgba(0, 128, 255, 0.1), 0 0 120px rgba(0, 128, 255, 0.05);
+    box-shadow: 0 0 40px rgb(29, 233, 11), 0 0 60px rgba(0, 255, 13, 0.3),
+      0 0 80px rgba(0, 255, 21, 0.2), 0 0 100px rgba(0, 128, 255, 0.1),
+      0 0 120px rgba(0, 128, 255, 0.05);
   }
 }
-
 
 .control-btn button {
   background-color: rgba(1, 255, 22, 0.3);
@@ -210,5 +214,16 @@ input {
   .side-content {
     width: 100%;
     margin-left: 0px;
+  }
+
+  .control-btn button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .control-btn i {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
   }
 }
