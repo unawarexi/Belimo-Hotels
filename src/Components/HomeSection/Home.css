@@ -127,51 +127,6 @@
 
 
 
-/*--------form-----------*/
-@media screen and (max-width: 768px) {
-  .slider {
-    height: 65vh;
-    position: relative;
-  }
-  .slide img {
-    height: 100vh;
-    object-fit: cover;
-  }
-  .slide-form {
-    left: 5%;
-    top: 40%;
-    width: 90%;
-    height: 50vh;
-    position: absolute;
-  }
-
-  .slide-form h2 {
-    margin-top: 30px;
-    font-size: 10px;
-  }
-  
-  .slide-form input {
-    margin-top: 10px;
-    padding: 5px;
-  }
-  .slide-form .flex_space input:nth-child(odd) {
-    margin-right: 10px;
-  }
-  .slide-form .submit {
-    background: #1c5cbd;
-    color: white;
-  }
-
-  .slider .control-btn button {
-    transform: translateY(200px);
-    position: absolute;
-
-  }
-}
-
-
-
-
 
 /*--------form-----------*/
 @media screen and (max-width: 768px) {

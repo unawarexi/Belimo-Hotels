@@ -5,3 +5,44 @@
 .collection img:hover {
   filter: grayscale(0);
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .collection .box {
+    margin-right: 10px;
+  }
+
+  .collection .box:last-child {
+    margin-right: 0; 
+  }
+
+  .collection .box > img {
+    width: 100%; 
+    height: auto;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .collection .box {
+    margin-right: 10px;
+  }
+
+  .collection .box:last-child {
+    margin-right: 0; 
+  }
+
+  .collection .box > img {
+    width: 100%; 
+    height: none;
+    border-radius: 5px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

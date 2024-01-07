@@ -27,7 +27,7 @@
 .download .row {
   position: relative;
 }
-.img .flex img {
+.download .img img {
   filter: brightness(110%) contrast(120%) saturate(120%);
 }
 .download .image {
@@ -37,9 +37,12 @@
   filter: brightness(110%) contrast(120%) saturate(120%);
 }
 
+
+
+
 @media screen and (max-width: 768px) {
-  .download .flex_space {
-    flex-direction: column;
+  /* .download .flex_space {
+    flex-direction: row;
     padding: 40px;
   }
   .download .row {
@@ -47,8 +50,24 @@
   }
   .download .row2 {
     display: none;
+  } */
+
+  .download .image {
+    width: 100%;
+   
   }
+
+  .download .img img {
+    width: 50%;
+    height: 50px;
+  }
+
   .download {
     height: 60vh;
+    font-size: 10px;
+  }
+
+  .download h1 {
+    font-size: 20px;
   }
 }

@@ -116,7 +116,6 @@
   background: none;
   margin-top: 30px;
   margin-bottom: 20px;
-
 }
 .popular .control-btn .prev {
   left: 45%;
@@ -136,12 +135,43 @@
   background: #31b675;
   color: white;
 }
+
+/*----- control btn -------*/
+@media screen and (max-width: 1024px) {
+  .popular .control-btn .prev {
+    left: 20%;
+  }
+  .popular .control-btn .next {
+    right: 22%;
+  }
+
+
+
+  
+}
 /*----- control btn -------*/
 @media screen and (max-width: 768px) {
   .popular .control-btn .prev {
-    left: 40%;
+    left: 20%;
   }
   .popular .control-btn .next {
-    right: 42%;
+    right: 22%;
+  }
+
+  .heading h1 {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .popular .cards h2,
+  h3 {
+    font-size: 13px;
+  }
+
+  .popular .cards h2::after {
+    left: 40%;
+  }
+  .popular .cards h2::before {
+    left: 30%;
   }
 }

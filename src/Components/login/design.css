@@ -25,6 +25,7 @@
 }
 .forms form label {
   margin: 8px;
+  
 
 }
 .forms form span {
@@ -60,9 +61,53 @@
 .show-data .sign-box {
   margin-top: 50px;
 }
+
+/*----------show-data---------*/
+@media screen and (max-width: 1024px) {
+  .sign-box {
+    width: 100%;
+    background: #4d4d4d91;
+  }
+
+  .forms p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .forms form span {
+    font-size: 15px;
+   
+  }
+
+  .forms form label {
+    margin: 4px;
+    font-size: 15px;
+    
+  
+  }
+}
+
 /*----------show-data---------*/
 @media screen and (max-width: 768px) {
   .sign-box {
-    width: 80%;
+    width: 100%;
+    background: #4d4d4d91;
+  }
+
+  .forms p {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .forms form span {
+    font-size: 10px;
+   
+  }
+
+  .forms form label {
+    margin: 4px;
+    font-size: 13px;
+    
+  
   }
 }
