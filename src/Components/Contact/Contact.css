@@ -1,4 +1,4 @@
-.main-content > h2{
+.main-content > h2 {
   color: #15ff00;
 }
 .contact-form {
@@ -7,7 +7,6 @@
 
 .input input {
   padding: 1rem;
-  
 }
 
 form textarea,
@@ -16,7 +15,6 @@ form input {
   border: 2px solid #ececec;
   margin-top: 5px;
   border-radius: 15px;
- 
 }
 .contact span {
   font-size: 14px;
@@ -44,16 +42,77 @@ form .primary-btn {
 /*-----------side-content-----------*/
 .side-content h3 {
   margin-bottom: 15px;
-  color:#15ff00;
+  color: #15ff00;
 }
 
 figure {
   width: 100%;
   height: 100%;
 }
+
+/*-----------side-content-----------*/
+@media screen and (max-width: 1024px) {
+
+
+  .main-content p {
+    padding: 1rem;
+  }
+
+  .input input {
+    padding: 10px;
+  }
+
+  form textarea,
+  form input {
+    margin-top: 3px;
+    border-radius: 5px;
+  }
+
+  .contact  p {
+    font-size: 10px;
+  }
+
+  .contact span {
+    font-size: 12px;
+  }
+
+  form .primary-btn {
+    font-size: 15px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
+}
 /*-----------side-content-----------*/
 @media screen and (max-width: 768px) {
   .contact .flex {
     flex-direction: column;
+  }
+
+  .main-content p {
+    padding: 1rem;
+  }
+
+  .input input {
+    padding: 10px;
+  }
+
+  form textarea,
+  form input {
+    margin-top: 3px;
+    border-radius: 5px;
+  }
+
+  .contact  p {
+    font-size: 10px;
+  }
+
+  .contact span {
+    font-size: 12px;
+  }
+
+  form .primary-btn {
+    font-size: 15px;
+    border-radius: 15px;
+    margin-bottom: 30px;
   }
 }
