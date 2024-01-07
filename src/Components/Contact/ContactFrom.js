@@ -30,10 +30,10 @@ const ContactFrom = () => {
       <section className='contact mtop'>
         <div className='container flex'>
           <div className='main-content'>
-            <h2>Contact From</h2>
+            <h2>Contact Form</h2>
             <p>Fill out the form below, we will get back you soon.</p>
 
-            <form onSubmit={formSubmit}>
+            <form onSubmit={formSubmit} className="contact-form">
               <div className='grid1'>
                 <div className='input'>
                   <span>

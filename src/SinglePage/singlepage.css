@@ -10,12 +10,17 @@
 .main-content p {
   margin: 10px 0 20px 0;
   color: grey;
+  background: #333333;
+  padding: 2rem;
+  border-radius: 15px;
 }
 .main-content .para p {
   margin-right: 10px;
+  background: #4d4d4d;
 }
 .main-content h1 {
   font-size: 30px;
+  color: #00ff00
 }
 .main-content img {
   width: 100%;
@@ -23,7 +28,7 @@
 }
 
 article .box {
-  background-color: #31b675;
+  background-color:#1c5cbd;
   padding: 30px;
   color: white;
 }
@@ -61,6 +66,7 @@ article .box2 p {
   font-size: 14px;
   line-height: 25px;
   color: white;
+  
 }
 @media screen and (max-width: 768px) {
   .single-page .flex {
