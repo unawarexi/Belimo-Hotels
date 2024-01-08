@@ -62,7 +62,7 @@
   height: 55vh;
   border-radius: 5px;
   color: white;
-  box-shadow: 0px 5px 15px 5px #10a7ff ;
+
 }
 .slide-form input {
   margin-top: 20px;
@@ -97,17 +97,20 @@
     width: 90%;
     height: 40%;
     margin-top: 4rem !important;
+    background-color: transparent;
+    
   
   }
 
   .slide-form h2 {
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 30px;
   }
   
   .slide-form input {
     margin-top: 10px ;
     padding: 20px;
+    box-shadow: 0px 3px 3px 0px #1c5cbd ;
   }
   .slide-form .flex_space input:nth-child(odd) {
     margin-right: 20px;
@@ -142,17 +145,19 @@
     left: 5%;
     top: 40%;
     width: 80%;
-    height: 40vh;
+    background-color: transparent;
   }
 
   .slide-form h2 {
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 30px;
   }
   
   .slide-form input {
     margin-top: 10px;
     padding: 10px;
+     box-shadow: 0px 3px 3px 0px #1c5cbd ;
+
   }
   .slide-form .flex_space input:nth-child(odd) {
     margin-right: 20px;
@@ -163,7 +168,7 @@
   }
 
   .slider .control-btn button {
-    transform: translateY(200px);
+    transform: translateY(230px);
     position: absolute;
 
   }

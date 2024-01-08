@@ -158,6 +158,11 @@
     right: 22%;
   }
 
+  .popular::after {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
   .heading h1 {
     color: #fff;
     font-size: 15px;

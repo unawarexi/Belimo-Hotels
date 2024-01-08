@@ -41,7 +41,7 @@ const BlogSingle = () => {
                 <p>{item.desc}</p>
                 <p>{item.desc}</p>
 
-                <h2>Two Column Text Sample</h2>
+                <h2>More Comparisons</h2>
 
                 <div className='para flex_space'>
                   <p>{item.para}</p>

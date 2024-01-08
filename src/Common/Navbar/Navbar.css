@@ -97,9 +97,9 @@ nav i {
   nav ul {
     display: block;
     width: 100%;
-    height: 90vh;
+    height: 85vh;
     position: absolute;
-    top: 80px;
+    top: 100px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -108,11 +108,18 @@ nav i {
     display: block;
   }
   nav ul.active {
-    background: #31b675;
+    background: linear-gradient(
+      90deg,
+      rgba(26, 26, 26, 1) 0%,
+      rgba(77, 77, 77, 1) 70%,
+      rgba(102, 102, 102, 1) 100%
+    );
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 100;
+    width: 80%;
+    border-radius: 10px;
   }
   nav ul li a {
     font-weight: 400;
@@ -123,12 +130,12 @@ nav i {
     position: absolute;
     top: 0;
     left: 20px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
 
   .fa-times {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -167,11 +174,19 @@ nav i {
     display: block;
   }
   nav ul.active {
-    background: #31b675;
+    background: linear-gradient(
+      90deg,
+      rgba(26, 26, 26, 1) 0%,
+      rgba(77, 77, 77, 1) 70%,
+      rgba(102, 102, 102, 1) 100%
+    );
     left: 0;
     opacity: 1;
+    width: 80%;
     transition: all 0.5s ease;
     z-index: 100;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   nav ul li a {
     font-weight: 400;
@@ -182,19 +197,19 @@ nav i {
     position: absolute;
     top: 0;
     left: 20px;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     cursor: pointer;
   }
 
   .fa-times {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 
 /*--------header------------*/
 header {
   padding: 40px 0 20px 0;
-  background-color: #666666;
+  background-color: #4d4d4d;
 }
 header .box {
   margin: 0 0 0 30px;
@@ -232,8 +247,7 @@ header h4 {
   .box {
     display: grid;
     width: 100%;
-
-    height: 100px;
+    height: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -278,15 +292,15 @@ header h4 {
     margin: 0 0 0 0px;
   }
 
-  .box {
+  .box-header {
     display: grid;
     width: 100%;
-
     height: 100px;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
+
   .text > h4 {
     font-size: 10px;
   }
