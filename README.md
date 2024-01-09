@@ -1,5 +1,5 @@
 
 
-Project Demo : https://tranquil-licorice-79e76f.netlify.app/ 
+Project Demo : https://belimo-hotels.netlify.app/ 
 
 ![Belimo Hotels]("./belimo-hotels.png")
