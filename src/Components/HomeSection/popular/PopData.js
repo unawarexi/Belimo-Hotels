@@ -17,7 +17,7 @@ const PopularData = [
     id: 3,
     image: "images/popular3.jpg",
     country: "United States",
-    name: "Rosen Shingle Creek",
+    name: "RShingle Creek",
     price: "$500.00",
   },
   {
@@ -45,7 +45,7 @@ const PopularData = [
     id: 7,
     image: "images/popular3.jpg",
     country: "United States",
-    name: "Rosen Shingle Creek",
+    name: "Rosen Shingle .C",
     price: "$500.00",
   },
   {

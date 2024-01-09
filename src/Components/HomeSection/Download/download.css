@@ -53,21 +53,25 @@
   } */
 
   .download .image {
-    width: 100%;
+   
+    height: 500px
    
   }
 
   .download .img img {
     width: 50%;
-    height: 50px;
+    height: 40%;
+   
   }
 
-  .download {
-    height: 60vh;
+  .download ul li{
+    
     font-size: 10px;
+    line-height: 15px;
   }
 
   .download h1 {
     font-size: 20px;
+
   }
 }

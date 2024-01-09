@@ -81,7 +81,7 @@ const Navbar = () => {
 
           <div className='contact flex_space '>
 
-            <div className='box flex_space'>
+            <div className='box box-header flex_space'>
               <div className='icons'>
                 <i class='fal fa-clock'></i>
               </div>
@@ -91,7 +91,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className='box flex_space'>
+            <div className='box box-header flex_space'>
               <div className='icons'>
                 <i class='fas fa-phone-volume'></i>
               </div>
@@ -100,7 +100,7 @@ const Navbar = () => {
                 <Link to='/contact'  className="text-link">+011 123 2367</Link>
               </div>
             </div>
-            <div className='box flex_space'>
+            <div className='box box-header flex_space'>
               <div className='icons'>
                 <i class='far fa-envelope'></i>
               </div>

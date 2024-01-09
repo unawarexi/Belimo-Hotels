@@ -29,6 +29,18 @@ const Home = ({ slides }) => {
           </button>
         </div>
 
+
+        {/* {Data.map((slide, index) => (
+          <div className={index === current ? "slide active" : "slide"} key={index}>
+            {index === current && (
+              <video controls autoPlay muted  poster={slide.poster}>
+                <source src={slide.source} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )}
+          </div>
+        ))} */}
+
         {Data.map((slide, index) => {
           return (
             <div className={index === current ? "slide active" : "slide"} key={index}>

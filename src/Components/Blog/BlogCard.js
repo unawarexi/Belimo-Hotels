@@ -17,6 +17,7 @@ const BlogCard = ({ item: { id, cover, title, desc, para, catgeory, date } }) =>
         <div className='details'>
           <h3>{title}</h3>
           <p>{para}</p>
+         
         </div>
 
         <Link to={`/blogsingle/${id}`} className='blogItem-link'>

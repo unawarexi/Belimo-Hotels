@@ -47,7 +47,7 @@ const BlogData = [
   {
     id: 6,
     date: "January 18, 2021",
-    catgeory: "Web Developement",
+    catgeory: "Softwares",
     title: "Why you Should Always First",
     cover: "/images/singlepage/blog-6.jpg",
     para: "Lorem ipsum dolor sit amet consectetur ipiscing elit amet consectetur piscing elit consectetur adipiscing elit sed et eletum.",

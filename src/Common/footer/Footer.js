@@ -7,7 +7,8 @@ const Footer = () => {
     <>
       <footer>
         <div className='container grid'>
-          <div className='box'>
+
+          <div className='box box-footer box-about'>
             <h2>ABOUT US</h2>
             <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet consectetur scing elit amet consectetur adipiscing elit sed et eletum.</p>
             <br />
@@ -22,7 +23,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='box'>
+          <div className='box box-nav box-footer'>
             <h2>NAVIGATION</h2>
             <ul>
               <li>
@@ -49,7 +50,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='box post'>
+          <div className='box post box-footer'>
             <h2>RECENT POSTS</h2>
             <ul>
               <li>
@@ -70,7 +71,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className='box'>
+          <div className='box box-footer'>
             <h2>NEWSLETTER</h2>
             <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
 

@@ -52,8 +52,8 @@ const SinglePage = () => {
               {/* --------- main-content--------- */}
 
               {/* --------- side-content--------- */}
-              <div className='side-content'>
-                <div className='box'>
+              <div className='side-content single-content'>
+                <div className='single-box'>
                   <h2>How can we help you?</h2>
                   <p>{item.sidepara}</p>
                   <button className='outline-btn'>

@@ -36,6 +36,7 @@
   font-weight: 400;
   padding: 15px 30px;
   word-spacing: 5px;
+  border-radius: 5px;
 }
 .image-heading a {
   color: #31b675;
@@ -44,4 +45,24 @@
 .image-heading span {
   text-transform: capitalize;
   word-spacing: 30px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+ 
+
+
+}
+/*-----------side-content-----------*/
+@media screen and (max-width: 768px) {
+
+  .image-heading h1 {
+    font-size: 20px;
+    
+  }
+
+
+ 
 }
